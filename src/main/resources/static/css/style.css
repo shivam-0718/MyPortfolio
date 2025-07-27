@@ -9,6 +9,24 @@
     --text-light: #94a3b8;
     --success-color: #10b981;
 }
-body {
-    font-family: Inter, serif
+
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
+::selection {
+    background: var(--accent-color);
+    color: var(--light-color);
+}
+
+body {
+    font-family: Inter, serif;
+    background: var(--darker-color);
+    color: var(--text-color);
+    line-height: 1.6;
+    overflow-x: hidden;
+}
+
+
