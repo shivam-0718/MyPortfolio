@@ -1,4 +1,14 @@
+:root {
+    --primary-color: #6366f1;
+    --secondary-color: #a855f7;
+    --accent-color: #ec4889;
+    --darker-color: #0a0a16;
+    --dark-color: #050510;
+    --light-color: #f8fafc;
+    --text-color: #e2e8f0;
+    --text-light: #94a3b8;
+    --success-color: #10b981;
+}
 body {
     font-family: Inter, serif
-
 }
